@@ -632,12 +632,12 @@ textarea {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-overlay.is-open {
+/* .modal-overlay.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
   transition-delay: 0ms;
-}
+} */
 .modal {
   position: absolute;
   top: 50%;
@@ -666,7 +666,6 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
   padding: 0;
   cursor: pointer;
   color: #2e2f42;
@@ -788,7 +787,6 @@ textarea {
 .visually-hidden {
 }
 .user-privacy {
-  align-items: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
