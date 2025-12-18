@@ -788,7 +788,6 @@ textarea {
 .visually-hidden {
 }
 .user-privacy {
-  display: inline-flex;
   align-items: center;
   font-weight: 400;
   font-size: 12px;
@@ -797,8 +796,8 @@ textarea {
   color: #8e8f99;
 }
 .custom-checkbox {
-  /* display: inline-flex;
-  justify-content: center; */
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
   width: 16px;
   height: 16px;
